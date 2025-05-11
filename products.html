@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - The Tech Spot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="vibrant-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><i class="fas fa-laptop-code"></i> The Tech Spot</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="products.html">Products</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li class="cart-icon"><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="products-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Our Products</h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / <span>Products</span>
+                </div>
+            </div>
+            
+            <div class="products-filter">
+                <div class="filter-section">
+                    <h3>Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="#" class="active">All Products</a></li>
+                        <li><a href="#">Smartphones</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Tablets</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Gaming</a></li>
+                        <li><a href="#">Smartwatches</a></li>
+                    </ul>
+                </div>
+                
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <input type="range" min="0" max="2000" value="2000" class="price-slider">
+                    <div class="price-range">
+                        <span>0DA</span>
+                        <span>20,000.00DA</span>
+                    </div>
+                </div>
+                
+                <div class="filter-section">
+                    <h3>Brands</h3>
+                    <div class="brand-filter">
+                        <label><input type="checkbox" checked> Apple</label>
+                        <label><input type="checkbox" checked> Samsung</label>
+                        <label><input type="checkbox" checked> Xiaomi</label>
+                        <label><input type="checkbox" checked> Dell</label>
+                        <label><input type="checkbox" checked> HP</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-badge">Hot</div>
+                    <div class="product-image">
+                        <img src="images/products/Apple_iPhone_15_Pro.png" alt="iPhone 15 Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3>iPhone 15 Pro</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(128)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">9,999.99DA</span>
+                            <span class="old-price">1,099.99DA</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="images/products/macbookAirM2.jpg" alt="MacBook Air M2">
+                    </div>
+                    <div class="product-info">
+                        <h3>MacBook Air M2</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(96)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">1,099,000.00DA</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/s23.jpg" alt="Samsung Galaxy S23">
+                    </div>
+                    <div class="product-info">
+                        <h3>Samsung Galaxy S23</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(215)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">799,000.99DA</span>
+                            <span class="old-price">899,000.99DA</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <div class="product-image">
+                        <img src="images/products/OIP.jpg" alt="AirPods Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3>AirPods Pro (2nd Gen)</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(342)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">1,990.00DA</span>
+                            <span class="old-price">2,490.00DA</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/swatch.webp" alt="Samsung Galaxy Watch">
+                    </div>
+                    <div class="product-info">
+                        <h3>Samsung Galaxy Watch 6</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(178)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">2,990.99DA</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="images/products/ipad_pro_11_cellular_silver_1_7_2.jpg" alt="iPad Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro M2</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(201)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">1,099,000.00DA</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <div class="product-image">
+                        <img src="images/products/xbox.avif" alt="Xbox Series X">
+                    </div>
+                    <div class="product-info">
+                        <h3>Xbox Series X</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(312)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">4,490.99DA</span>
+                            <span class="old-price">5,990.99DA</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/microsoft-surface-pro-9-removebg-preview.png" alt="Microsoft Surface Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3>Microsoft Surface Pro 9</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(87)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">9,990.00DA</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#"><i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+    </main>
+
+   <footer class="vibrant-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>The Tech Spot</h3>
+                    <p>Your premier destination for all tech gadgets and accessories. Quality products at competitive prices.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>123 Rue Didouche Mourad | Alger Centre, Algérie </li>
+                        <li><i class="fas fa-phone"></i> (213) 776-2060-39</li>
+                        <li><i class="fas fa-envelope"></i> info@thetechspot.com</li>
+                    </ul>
+                </div>
+            </div>
+           
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Tech Spot. All Rights Reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+           
+    </footer>
+</body>
+</html>
